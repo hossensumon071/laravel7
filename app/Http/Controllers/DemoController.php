@@ -9,8 +9,11 @@ class DemoController extends Controller
    
 
 
-    function myname($namevalue){
-        return $namevalue;
+    function myname($firstName, $middleName, $lastName){
+
+
+
+        return "First Name : ". $firstName ." Middle Name: ". $middleName. "Last Name: ". $lastName;
     }
 
 

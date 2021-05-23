@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/name/{namevalue}', 'DemoController@myname');
+Route::get('/name/{firstName}/{middleName}/{lastName}', 'DemoController@myname');
